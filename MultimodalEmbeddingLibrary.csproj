@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>MultimodalEmbeddingLibrary</AssemblyName>
+    <RootNamespace>MultimodalEmbeddingLibrary</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MultimodalEmbeddingLibrary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Tests/**" />
+  </ItemGroup>
+</Project>
